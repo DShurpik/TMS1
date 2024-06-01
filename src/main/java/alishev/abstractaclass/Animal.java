@@ -5,6 +5,8 @@ public abstract class Animal {
         System.out.println("animal eats");
     }
 
+
+
     public abstract void makeSound();// у абстрактного класса есть метод но в методе нету реализации
 }
 // абстрактный класс не можем создавть объект этого класса
