@@ -25,45 +25,48 @@ public class Constructors {
 
     }
 }
+
 class Aspirant {
+    String name;
+    int age;
 
     // Перегрузка методов в java
     // В программе мы можем использовать методы с одним и тем же именем, но с разными типами и/или количеством параметров.
 
     // конструктор по умолчанию
-    public Aspirant(){
+    public Aspirant() {
         System.out.println("конструктор по умолчанию");
     }
-    public Aspirant(String name){
+
+    public Aspirant(String name) {
         System.out.println("2-й конструктор с полем имя");
         this.name = name;
     }
-    public Aspirant(String name, int age){
+
+    public Aspirant(String name, int age) {
         System.out.println("3-й конструктор с полями имя и возраст");
         this.name = name;
         this.age = age;
     }
 
 
-
-
-
-    String name;
-    int age;
-
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
-    public void setAge(int age){
+
+    public void setAge(int age) {
         this.age = age;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public int getAge(){
+
+    public int getAge() {
         return age;
     }
-    public void printInfo(){
+
+    public void printInfo() {
         System.out.println(getName() + ", " + getAge());
     }
 }
