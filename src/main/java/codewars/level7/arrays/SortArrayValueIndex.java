@@ -1,9 +1,6 @@
 package codewars.level7.arrays;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
-public class sortArrayValueIndex {
+public class SortArrayValueIndex {
     public static void main(String[] args) {
         int[] arr1 = new int[] { 26, 2, 3, 4, 5 };
 

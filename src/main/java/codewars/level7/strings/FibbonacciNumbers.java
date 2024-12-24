@@ -2,7 +2,7 @@ package codewars.level7.strings;
 
 import java.util.Arrays;
 
-public class fibbonacciNumbers {
+public class FibbonacciNumbers {
     public static void main(String[] args) {
         int number = 20;
         int[] arr = new int[number];

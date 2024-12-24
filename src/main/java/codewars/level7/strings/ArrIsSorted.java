@@ -1,6 +1,6 @@
 package codewars.level7.strings;
 
-public class arrIsSorted {
+public class ArrIsSorted {
     public static void main(String[] args) {
         int[] arr = new int[] {1,2,3,4,5,6,7,8,9};
         boolean isSorted = true;
