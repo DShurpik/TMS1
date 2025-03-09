@@ -8,6 +8,7 @@ public abstract class Animal {
 
 
     public abstract void makeSound();// у абстрактного класса есть метод но в методе нету реализации
+    public abstract void makeSound(String sound);
 }
 // абстрактный класс не можем создавть объект этого класса
 // наследники должны реализовать методы абстрактного класса
