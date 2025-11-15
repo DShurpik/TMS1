@@ -12,6 +12,11 @@ public class Cat extends Animal{
         System.out.println(sound);
     }
 
+    public void eat() {
+        super.eat();
+        System.out.println("Cat is eating");
+    }
+
     public static void speak() {
     }
 }

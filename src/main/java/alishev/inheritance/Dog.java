@@ -2,6 +2,7 @@ package alishev.inheritance;
 
 public class Dog extends Animal{
 
+    @Override
     public void eat(){   // тут мы переопределили метод из класса animal
         System.out.println("i am eating meat");
     }

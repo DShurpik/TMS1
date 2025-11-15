@@ -11,15 +11,15 @@ public class Exceptions3 {
 
             if (x != 0){
                 try {
-                    throw new IOException();  // тут создаем исключение которое хотим
-                } catch (IOException e) {
-                    System.out.println("user enter smthg above 0");;
+                    throw new ScannerExceptions();  // тут создаем исключение которое хотим
+                } catch (ScannerExceptions e) {
+                    throw new RuntimeException(e);
                 }
             }
         }
     }
 
-    public class ScannerExceptions extends Exception{
+    public static class ScannerExceptions extends Exception{
         public ScannerExceptions(){
 
         }

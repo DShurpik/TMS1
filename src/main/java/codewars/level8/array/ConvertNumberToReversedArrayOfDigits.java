@@ -6,9 +6,16 @@ public class ConvertNumberToReversedArrayOfDigits {
     public static void main(String[] args) {
        int[] arr = digitize(123456789);
        int[] arr1 = digitize1(123456789);
+       int[] arr2 = digitize2(123456789);
 
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+    }
+
+    public static int[] digitize2(long n) {
+        String[] a = new StringBuilder(String.valueOf(n)).reverse().toString().split("");
+        return Arrays.stream(a).mapToInt(Integer::parseInt).toArray();
     }
 
     public static int[] digitize(long n) {
