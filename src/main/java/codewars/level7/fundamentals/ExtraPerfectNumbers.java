@@ -1,7 +1,5 @@
 package codewars.level7.fundamentals;
 
-import com.beust.ah.A;
-
 import java.util.Arrays;
 
 public class ExtraPerfectNumbers {
